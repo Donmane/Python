@@ -1,0 +1,250 @@
+to convert integer to string name=str(integer)
+in order to combine integer and string you need to convert and 
+place like print('i am' + val + 'years old')
+
+we call decimal float
+
+Slice method
+in order to slice more than one letter write like so (3:5)
+in order to capture everything from the initial number you choose
+to everything is (3:)
+if you have name=mondays
+in order to get day you need to write (3:6)
+if you use a negative num ber it counts from the back
+in order to check the length print (len(name))
+in order to use comment you need to add """ at the begining and 3 space at the end and """
+in order to check if the first word is what you imagined you need
+to write print(comment.startswith('commented')) if it is the 
+terminal will show true and vise versa
+while endswith is the opposite but same result
++ sign dosen't work with combining string and integer but , works
+
+
+Strip method
+in order to use strip you need to write like print('length before strip is' , len(comment.strip()))
+ 
+
+Python Arimetic operation
+operator     name               
++             addition
+-             subtraction
+/             division
+%             modulus
+**            exponentiation raise to power
+//            floor division the main answer
+
+in order to use input on the terminal write as
+val= int(input('enter value for val2: '))
+
+Assignment operators
+== if the value is equal the statement becomes true
+!= if the value are not equal the statement is true
+<= if the first value if less than or equal to the second value the statement is true
+>= if the first value if greater than or equal to the second value the statement is true
+> if the first value if greater than the second value the statement is true
+< if the first value if less than the second value the statement is true
++= incriment 
+& = and
+     VISIT JAVAPOINT.COM
+
+Identity operators is , is not
+
+Membership operators in, not in
+
+Bitwise operators
+    
+
+                  READ ON DATA TYPES
+HLW
+
+
+
+
+
+
+Lower() function : it puts the variable in lower case
+in order to activate
+print (name.lower())
+and verse versa
+
+The replace function replaces one word with another
+mwe = comment.replace("people", "student")
+
+Split it creates a list it can be changed wherever you want the list to occure
+print(comment.split('.'))
+
+Join is the opposite of split 
+print("".join(value))
+full descloure
+the signs can be changed
+
+title the first letter of a word will have capital letter
+
+/n is br for python
+
+Count it counts how many times a word appeares in a variable  
+print(comment.count("python"))
+
+Format it putes words and numbers in a variable
+name = "psof"
+num = 90
+comment  = """ {name} ereregrrege {num}   """
+print(comment.format(name, num))
+
+Array
+List is a collection which is ordered and changeable
+List is created with [] or ()
+you can have integers,decimal and etc inside a list
+when using ()
+write list()
+you cannot use replace under list
+Append :to add name write mylist.append("val")
+Insert : specifies where you want the new ward to be placed
+  
+
+              HLW
+strip the comment
+Split it 
+add append and insert
+
+
+
+Extend it combines two lists
+Remove is to remove a word from the list
+Pop is to delete val.pop(index)
+clear it empties the list
+del deletes everything including the list
+sort it arranges index from smallest to biggest
+it can also arrange from biggest to smallest
+like so 
+val.sort(reverse=true)
+inverse starts fro m the back
+copy copies a list from another variable
+val1 = [e,t,hh]
+val2 = val1.copy()
+max and min checkes the maximum and mininum of the integer of a list
+print(max(val))
+
+
+     Tuple
+its an order but not changeable
+1 means true
+0 means false
+
+
+HLW
+use all the list method
+if counting length start from 1 
+index is zero
+
+
+      Set
+set is a collection which is not ordered
+it is written in curly brackets
+i.e {} or set()
+it picks one one string  with the same name
+it starts counting from one
+if you try to add it puts it anywhere
+update joins the sets together
+val.update(val)
+updatea add more items
+pop ramdomly selects which deletes
+for in
+union is to add(2 sets or more) everything together
+set3 = set1.union(set2)
+symethric difference it shows what is not in set 1 but in set 2
+and verse vice
+and you need to create another variable
+
+symethric differenceupdate it picks what is not in  set 1 and but in set2
+and vice versa into a set
+isdisjoint is true when they don't have any element in common
+issubset is true when everything in set 1 is in set 2
+ issupersect is true when set3 is the parent of set 1
+
+
+
+       On monday study range
+
+
+Dictionary are used to store data values with 
+Key : value pairs
+Key is used as a variable name
+while value pairs is used as the variable
+but they will still be written as val {key:value pairs}
+dictionaries are ordered and changeable
+they cannot have two items with the same key
+the data type of a dictionary is 'dist
+
+. get
+
+in order to add to the disc 
+val.["key"] = 'ten'
+.item will place them in their own individual brackets
+you can use the update function to add and change
+
+
+f*= i is the same as f = f*1
+
+
+Loop is a statement that repeats the same instruction until a condition is met
+Nested loop is a loop in a loop
+
+to stop while loop put brake
+
+remove the  even and odd and prime
+
+when using break it stops before the given value
+
+
+when using  it continue to one extra val the given value
+
+pass stops the whole operation when the condition is met
+
+in order to start a function it needs to start with def
+
+def fun(argument,argument)
+or
+(*arg):
+print()
+
+you can call one fun in another
+
+  fun() overides anything that has been set as defalt
+calculator through function
+
+
+Keyword argument you have to specify which is which when calling the function
+in default it gives its value depending on the index and in the creation of the function
+
+in order to change when an error appers write as 
+try:
+     FUNCTION NAME()
+except TypeError:
+    print()
+
+put the function inside try
+
+args are non keyword
+kwargs are keyword
+* = unpacking
+
+return = 
+
+
+
+
+
+
+    MODULES	
+multiple modules can create a library
+
+
+   HLW
+mul
+div
+modulous
+compunatiom
+permutation
+square root
+exponential
