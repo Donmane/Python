@@ -26,23 +26,17 @@ def wel():
         print("Does not compute")
         quit()   
      print("thanks for shopping") 
- 
 def us():
     print(f"welcome {reg1} which network do you want to use ")
     print("1 for Mtn\n2 for Airtel\n3 for Glo")
     inp1 = input(">>>")
     if inp1 == "1":
      print(f"_______welcome {reg1}______Mtn")
-     
      print(wel())
-
     elif inp1 == "2":
      print(f"_______welcome {reg1}______Airtel")
-     
      print(wel())
-
     elif inp1 == "3":
-     print(f"_______welcome {reg1} to Glo______")
-     
+     print(f"_______welcome {reg1} to Glo______") 
      print(wel())
 us()

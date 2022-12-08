@@ -1,20 +1,8 @@
 Welcome = "Welcome to my Mathematical Calculator..."
 print(Welcome)
-
-one = "(1) Additional" 
-two = "(2) Subtraction"
-three = "(3) Multiplication"
-four = "(4) Expomential"
-five = "(5) Factorial"
-six = "(6) Combination"
+one = "(1) Additional\n(2) Subtraction\n(3) Multiplication\n(4) Expomential\n(5) Factorial\n(6) Combination"
 print(one)
-print(two)
-print(three)
-print(four)
-print(five)
-print(six)
 inpu = int(input("Enter your choice :"))
-
 if inpu == 1 :
  inpu1 = int(input("Enter your number :"))
  inpu2 = int(input("Enter your number :"))
@@ -52,11 +40,8 @@ if inpu == 6 :
     com = 1
     for i in range(1, inpu1 + 1 ):
      com = com * i
-
      com1 = 1
     for i in range(1, inpu1 + 1 ):
      com1 = com1 * i
-
     combine = (inpu1)/inpu2(inpu1 - inpu2)
-
     print(combine)

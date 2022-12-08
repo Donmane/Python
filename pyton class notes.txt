@@ -248,3 +248,14 @@ compunatiom
 permutation
 square root
 exponential
+
+regular exp is a module
+it is used to verify input and url
+to import write 
+import re
+^ means start with
+* ends with
+$ 0 or more occurencie
+mm = """the get"""
+val = re.search("^the.*get$",mm)
+
