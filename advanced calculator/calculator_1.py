@@ -1,12 +1,6 @@
-# v = 2
-# def paul():
-#     return 6
-
 class mymath:
     def __init__(self):
-        self.name = "paul"
-        self.location = "Moniya"
-    
+        pass    
     def add(self, x, y):
         a = x + y
         return a

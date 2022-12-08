@@ -1,13 +1,7 @@
-# jer = input('>>>').split()
-# let = int(input('>>>'))
 num1 = int(input('Enter num :')) 
 sign = input('Enter operator:')
 num2 = int(input('Enter num :'))
-
 def myfunction() :
-#  print("Hello", fname[(let)], "Good morning")    
- 
- 
  if sign == '+' :
   sun =  num1 + num2
   print(f'{num1} + {num2} = {sun}')
@@ -26,6 +20,5 @@ def myfunction() :
 
  else:
     print('incorrect')
-
 myfunction()
 

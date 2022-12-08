@@ -11,13 +11,5 @@ for k in range(1,13):
     else:
         odd.append(col)
     n = 0
-for i in range(1, col):
-    f = col % i
-    if f == 0:
-     n = n + 1
-    
-if n == 2:
-       prime.append(col)
 print(f"Even numbers = {even}")
 print(f"Odd numbers = {odd}")
-print(f"Prime numbers = {prime }")
